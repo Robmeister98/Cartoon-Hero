@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+header{
+  background-color: #cba2c8;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header .avatarimg{
+  border-radius: 200px;
+  border: 10px solid white;
+  width: 300px;
+}
+
+header .titleimg{
+  width: 350px;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+h2{
+  font-size: 35px;
+}
+/* The following was for header h1, intended to be the title 'Johnny Bravo.
+    It got replaced with the image of his name. Cause it's cooler.
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+*/
+
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+main img{
+  max-width: 65%;
+  padding: 30px 30px 0 30px;
+}
+
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ol, ul{
+  text-align: left;
+  padding: 0 0 0 25%;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color: #cba2c8;
+}
+
+footer{
+  background-color: #cba2c8;
+  text-align: center;
+  color: white;
+}
+footer p{
+  margin: 0;
+  padding: 30px;
+}
+
+footer a:hover{
+  color: black;
+  font-style: italic;
+
+}
+
+p.caption{
+  color: #999999;
+  font-style: italic;
+  margin-top: 0;
+}
